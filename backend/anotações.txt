@@ -1,0 +1,27 @@
+Database- 3 niveis de abstração para a comunicação
+Query normal
+Query builder
+ORM
+
+Conceitos do Docker:
+    Imagem- Postgres, MySQL podem ser imagens que são coisas que podem ser colocados em um container
+    Container- Instancia de uma imagem (3 postgres rodando por exemplo)
+    Docker Registry (Docker Hub)- Onde fica nossas próprias imagens
+    Docker File- A receita para a criação da nossa receita no Docker 
+
+MIGRATIONS:
+    1a semana: Agendamentos
+    2a semana: Usuários
+    (Novo DEV)3a semana: Edição Agendamentos
+    4a semana: Compras
+
+    Manter o banco de dados igual em todas as maquinas
+    Controle de versão do Banco de Dados
+    SÓ PODE ALTERAR UMA MIGRATION SE ELA AINDA NÃO FOI PARA UM AMBIENTE DE PRODUÇÃO OU CONTROLE DE VERSÃO
+    CRIAR NOVA MIGRATION PARA CASO ELA JÁ ESTIVER EM ALGUM LUGAR
+
+
+ENTITYS:
+    Quando criamos um entity o método constructor é criado automáticamente
+
+Toda vez que criamos uma funcao assincrona o retorno dela vai ser uma promisse 
