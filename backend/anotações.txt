@@ -25,3 +25,24 @@ ENTITYS:
     Quando criamos um entity o método constructor é criado automáticamente
 
 Toda vez que criamos uma funcao assincrona o retorno dela vai ser uma promisse 
+
+Relacionamentos :
+    Um para Um
+    Um para Muitos
+    Muitos para Muitos
+
+KISS:
+    Keep It Simple & Stupid
+
+AUTENTICAÇÃO:
+  JWT:
+    JSON WEB TOKEN
+    É A FORMA DE FAZER AUTENTICAÇÃO EM APIS REST
+    FAZ UMA CONSULTA NA DATABASE E GERA UM TOKEN JWT
+    O que vem no TOKEN:
+      Headers:
+        Tipo de Token 
+      Payload:
+        Dados adicionais do usuário (ID, Nome e etc. NUNCA DADOS SENSÍVEIS)
+      Assinatura:
+        Garantia de que o Token não foi alterado por outro usuário
