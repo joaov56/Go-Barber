@@ -46,3 +46,11 @@ AUTENTICAÇÃO:
         Dados adicionais do usuário (ID, Nome e etc. NUNCA DADOS SENSÍVEIS)
       Assinatura:
         Garantia de que o Token não foi alterado por outro usuário
+  
+  O Token é enviado pelo header usando o prefixo Bearer
+
+Tudo que é enviado pelo request e response fica disponível para os midlewares subsequentes
+
+No typescript podemos usar hacks por exemplo:
+  Para alterar uma declaração de tipagem da própria biblioteca pode criar uma pasta @types com um arquivo #biblioteca.d.ts e colocar ali o que queremos mudar
+  Para declarar uma tipagem de uma variável após definir o valor dela podemos usar o AS, const encoded= object      const {encoded_value}= encoded as INTERFACE
