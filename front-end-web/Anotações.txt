@@ -1,0 +1,2 @@
+background-size: cover define que ele vai  cobrir todo o espaço disponível
+place-content: center é a mesma coisa que um JustifyContent e um AlignItem no centro
